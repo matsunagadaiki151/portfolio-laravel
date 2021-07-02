@@ -1,0 +1,250 @@
+header {
+    position: fixed;
+    z-index:10;
+    background-color: #333333;
+    width: 100%;
+    height: 54px;
+    margin: 0 auto;
+    
+}
+
+body {
+    font-family: "Hiragino Maru Gothic Pro W4";
+    margin: 0;
+    max-width: 1500px;
+}
+
+.contents {
+    background-color: white;
+    height : auto;
+    text-align: left;
+    width: 100%;
+}
+
+.tech {
+    padding: 10px 20px 10px 20px;
+}
+
+.link {
+    padding: 10px 20px 10px 20px;
+}
+
+footer {
+    position : absolute;
+    bottom : 0;
+    width: 100%;
+    height: 54px;
+    margin-top : 50px;
+    background-color: #333333;
+
+}
+
+footer span {
+   float: right;
+   font-size: 18px;
+   color:white;
+   padding-top:5px;
+   padding-right: 30px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh; /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
+    position: relative;/* ←相対位置 */
+    padding-bottom: 100px; /* ←フッターの高さを指定 */
+    box-sizing: border-box;
+    /* ↑ヘッダーやフッターを含むすべての要素の高さ＝min-height:100vhになるように指定 */
+}
+
+  .title img {
+      height: 36px;
+      width: auto;
+      background-color: white;
+      border-radius: 50%;
+      margin-top:10px;
+  }
+
+  .title span {
+      height:36;
+      width: auto;
+      display: flex;
+      color:white;
+      padding:15px 0px 0px 0px;
+      margin : 0px 0px 0px 5px;
+  }
+
+  .title {
+      display: flex;
+      text-decoration: none;
+      float: left;
+      justify-content: center;
+      margin-left: 10px;
+  }
+
+.top {
+      background-image: url(../images/home.png);
+      opacity: 0.8;
+      padding-top: 180px;
+      padding-bottom: 350px;
+      width:100%;
+      background-size: cover;
+      box-shadow: 0px 10px 5px #eeeeee;
+  }
+
+.top p {
+    color: #00afcc;
+    font-weight: bold;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 54px;
+    line-height:2;
+    padding-left:40px;
+}
+
+.tech {
+    height: auto;
+}
+
+.available {
+    height: 50px;
+    width : auto;
+    padding-left:15px;
+}
+
+.available p {
+    font-size: 36px;
+    padding-bottom: 15px;
+    margin-block-start: 10px;
+    border-bottom: 2px solid #dee7ec;
+}
+
+.technologies {
+    width:100%;
+    height: auto;
+    margin: 60px 0px 0px 0px;
+}
+
+.tech-content {
+    float: left;
+    width : 33%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.tech-wrapper {
+   width : 100%;
+   display : inline-block;
+   text-align: center;
+}
+
+.technology {
+    display: inline-block;
+    width: 80%;
+    height:300px;
+    text-align: center;
+    margin : 0 auto;
+    border: black solid 1px;
+    box-shadow: 6px 6px 3px #555555;
+    border-radius: 5%;
+}
+.technology img {
+    display : inline-block;
+    height: 50%;
+    width: auto;
+    margin: 0 auto;
+}
+
+.technology h3 {
+    color : #333333;
+    font-weight: normal;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.technology p {
+    color : #333333;
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.link {
+    height: auto;
+    margin-bottom : 20px;
+}
+.link-title {
+    font-size: 36px;
+    padding-bottom: 15px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 15px;
+    border-bottom: 2px solid #dee7ec;
+}
+
+.link-wrapper {
+    height:auto;
+    width:100%;
+    margin : 20px auto;
+    float: none;
+}
+
+.link-contents {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+.link-contents span {
+    font-size: 24px;
+}
+
+.link-btn {
+    display: inline-block;
+    text-decoration: none;
+    width:50%;
+    opacity : 0.8;
+    margin:0 auto;
+    border-radius: 5%;
+    box-shadow: 0px 6px 3px #555555;
+}
+
+.link-btn:hover {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.link-btn:active {
+    position: relative;
+    box-shadow: none;
+    top:6px;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.twitter span {
+    color : white;
+}
+
+.github {
+    background-color: #171515;
+}
+
+.github span {
+    color : white;
+}
+
+.wantedly {
+    color:#21DBDB;
+    background-color: #F5F5F5;
+    border:rgb(126, 115, 115) solid 2px;
+}
+
+.clear {
+    clear : left;
+}
