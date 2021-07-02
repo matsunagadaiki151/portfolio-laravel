@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{{asset('/css/style.css')}}">
+        <link rel="stylesheet" href="css/style.css">
         <!--<link rel="stylesheet" href="scripts/responsive.css">-->
     </head>
     <body>
