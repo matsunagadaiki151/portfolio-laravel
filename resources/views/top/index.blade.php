@@ -4,7 +4,6 @@
 
 
 @section('contents')
-<div class="contents">
     <div class="top">
         <p>Welcome to<br>
         My Portfolio</p> 
@@ -45,7 +44,7 @@
                         <h3>Other</h3>
                         <p>TOEIC 790点 <br>
                             Azureの使用経験あり<br>
-                            AtCoder 7回参加<br>
+                            AtCoder 8回参加<br>
                     </div>
                 </div>
             </div>
@@ -76,5 +75,4 @@
             <div class="clear"></div>
         </div>
     </div>
-</div>
 @endsection

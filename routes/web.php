@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'TopController@index');
+Route::get('/link', 'LinkController@index');
+Route::post('/link', 'LinkController@voted');

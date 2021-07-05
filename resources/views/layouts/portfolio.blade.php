@@ -11,12 +11,21 @@
     <body>
         <div class="container">
             <header>
-                <a class="title" href="./index.html">
+                <a class="title" href="./">
                 <img src="images/zirtaro.png" alt="">
                 <span>giranaga</span>
                 </a>
+                <div class="menu-list">
+                    <a href="/link">
+                        <div class="menu-content">
+                            <span>リンク</span>
+                        </div>
+                    </a>
+                </div>
             </header>
-            @yield('contents')
+            <div class="contents">
+                @yield('contents')
+            </div>
             <footer>
                 <span> 2021 giranaga </span>
             </footer>

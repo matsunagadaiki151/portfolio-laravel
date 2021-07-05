@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    top : 0;
     z-index:10;
     background-color: #333333;
     width: 100%;
@@ -247,4 +248,62 @@ footer span {
 
 .clear {
     clear : left;
+}
+
+.header-space {
+    height : 54px;
+}
+
+.links-title {
+     height : auto;
+     margin-top : 50px;
+     border-bottom: #dee7ec solid 1px;
+}
+
+.links-container {
+    width : 90%;
+    margin : 0 auto;
+}
+
+.basic {
+    border-bottom: #dee7ec solid 1px;
+}
+
+.academy {
+    border-bottom: #dee7ec solid 1px;
+}
+
+.article {
+    border-bottom: #dee7ec solid 1px;
+}
+
+.circle {
+    border-bottom: #dee7ec solid 1px;
+}
+
+.menu-list {
+    display : flex;
+    float : right;
+}
+
+.menu-list a {
+    text-decoration:none;
+    color : white;
+}
+
+.menu-content {
+    height : 54px;
+    width : auto;
+    margin-right : 50px;
+    border-right : #dee7ec solid 1px;
+    border-left : #dee7ec solid 1px;
+}
+
+.menu-content span {
+    height:36;
+    width: auto;
+    display: flex;
+    color:white;
+    padding:15px 20px 0px 20px;
+    margin : 0px 0px 0px 0px;
 }
